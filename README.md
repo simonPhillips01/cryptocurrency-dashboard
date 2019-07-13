@@ -70,3 +70,8 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 ###Styled components
 https://www.styled-components.com/
 
+#CrytoCompare
+https://min-api.cryptocompare.com/
+
+#CrytoCompare
+https://github.com/ExodusMovement/cryptocompare
