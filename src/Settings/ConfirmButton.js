@@ -4,7 +4,7 @@ import {AppContext} from '../App/AppProvider';
 
 const ConfirmButtonStyled = styled.div`
     margin: 20px;
-    color: green;
+    color: #03ff03;
     cursor: pointer;
 `
 
