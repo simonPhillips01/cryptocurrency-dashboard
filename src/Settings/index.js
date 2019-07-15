@@ -5,5 +5,10 @@ import Page from '../Shared/Page';
 import CoinGrid from './CoinGrid';
 
 export default function() {
-    return <Page name="settings"> <WelcomeMessage/> <ConfirmButton/> <CoinGrid/> </Page>
+    return <Page name="settings"> 
+        <WelcomeMessage/>
+        <CoinGrid topSection/> 
+        <ConfirmButton/> 
+        <CoinGrid/> 
+    </Page>
 }
