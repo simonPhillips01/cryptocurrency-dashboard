@@ -75,3 +75,6 @@ https://min-api.cryptocompare.com/
 
 #CrytoCompare
 https://github.com/ExodusMovement/cryptocompare
+
+#CSS auto fill vs auto fit
+https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
