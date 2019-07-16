@@ -1,7 +1,6 @@
 import React from 'react';
-import styled, {css} from 'styled-components';
+import styled from 'styled-components';
 import {AppContext} from '../App/AppProvider';
-import {SelectableTile} from '../Shared/Tile';
 import CoinTile from './CoinTile';
 
 export const CoinGridStyle = styled.div`
@@ -11,14 +10,14 @@ export const CoinGridStyle = styled.div`
     margin-top: 40px;
 `
 
-function getCoinsToDisplay(coinList, topSection) {
-    return Object.keys(coinList).slice(0, topSection ? 10 : 100);
+function getCoinsToDisplay(coinList, topSection, favourites) {
+    return topSection ? favourites : Object.keys(coinList).slice(0, 100);
 }
 
 export default function({topSection}) {
     return <AppContext.Consumer>
-        {({coinList}) => <CoinGridStyle>
-            {getCoinsToDisplay(coinList, topSection).map(coinKey =>
+        {({coinList, favourites}) => <CoinGridStyle>
+            {getCoinsToDisplay(coinList, topSection, favourites).map(coinKey =>
                 <CoinTile topSection={topSection} coinKey={coinKey} />
             )}
         </CoinGridStyle>}
