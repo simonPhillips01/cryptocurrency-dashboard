@@ -78,3 +78,9 @@ https://github.com/ExodusMovement/cryptocompare
 
 #CSS auto fill vs auto fit
 https://css-tricks.com/auto-sizing-columns-css-grid-auto-fill-vs-auto-fit/
+
+#Lodash debounce function
+https://lodash.com/docs/#debounce
+
+#Fuzzy search
+https://www.npmjs.com/package/fuzzy
