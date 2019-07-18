@@ -39,7 +39,6 @@ export class AppProvider extends React.Component {
         let prices = await this.prices();
         // Filter the empty price objects
         prices = prices.filter(price => Object.keys(price).length);
-        console.log(prices)
         this.setState({prices});
     }
 
