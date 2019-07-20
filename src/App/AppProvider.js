@@ -1,6 +1,6 @@
 import React from 'react';
 import _ from 'lodash';
-import { tsParenthesizedType } from '@babel/types';
+// import { tsParenthesizedType } from '@babel/types';
 
 const cc = require('cryptocompare');
 
