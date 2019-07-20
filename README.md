@@ -84,3 +84,6 @@ https://lodash.com/docs/#debounce
 
 #Fuzzy search
 https://www.npmjs.com/package/fuzzy
+
+#Highcharts
+https://www.highcharts.com/demo
